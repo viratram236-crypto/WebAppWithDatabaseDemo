@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: MySelfHostedPool
+  vmImage: MySelfHostedPool
 
 variables:
   buildConfiguration: 'Release'
